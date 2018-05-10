@@ -1,8 +1,8 @@
 import { AppComponent } from './app.component'
 import { AppRoutingModule } from './app-routing.module'
 import { BrowserModule } from '@angular/platform-browser'
-import { DashboardComponent } from './pages/dashboard.component'
-import { HomeComponent } from './pages/home.component'
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core'
 import { ServiceWorkerModule } from '@angular/service-worker'
 

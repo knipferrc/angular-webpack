@@ -39,7 +39,7 @@ module.exports = {
       { from: 'src/assets', to: 'assets' }
     ]),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, '../index.html'),
+      template: path.resolve(__dirname, '../src/index.html'),
       output: path.resolve(__dirname, '../dist'),
       inject: true,
       minify: true,
@@ -47,7 +47,8 @@ module.exports = {
     }),
     new HtmlWebpackHarddiskPlugin(),
     new ScriptExtPlugin({
-      defaultAttribute: 'defer'
+      defer: [/app/, /vendor/, /polyfills/],
+      defaultAttribute: 'async'
     }),
     new NgCompilerPlugin({
       tsConfigPath: 'tsconfig.json',

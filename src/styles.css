@@ -1,0 +1,6 @@
+html, body, main, app-component {
+  margin: 0;
+  padding: 0;
+  background: blue;
+  height: 100%;
+}

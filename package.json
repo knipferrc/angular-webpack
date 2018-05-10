@@ -21,14 +21,14 @@
     "start": "webpack-dev-server --mode development --config config/webpack.dev.js",
     "build-app": "webpack --mode production --config config/webpack.prod.js",
     "build": "npm run build-app && npm run ngsw-config && npm run ngsw-copy",
-    "ngsw-config": "node_modules/.bin/ngsw-config dist ngsw-config.json",
+    "ngsw-config": "node_modules/.bin/ngsw-config dist src/ngsw-config.json",
     "ngsw-copy": "cp node_modules/@angular/service-worker/ngsw-worker.js dist/",
     "format": "prettier --write '**/*.{tsx,ts,css,md,js}'"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^6.0.0",
     "@angular/language-service": "^6.0.0",
-    "@ngtools/webpack": "^6.0.0",
+    "@ngtools/webpack": "^6.0.1",
     "@types/node": "^10.0.6",
     "clean-webpack-plugin": "^0.1.19",
     "compression-webpack-plugin": "^1.1.11",
