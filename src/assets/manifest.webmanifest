@@ -1,0 +1,9 @@
+{
+  "short_name": "angular-webpack",
+  "name": "angular-parcel",
+  "description": "Angular webpack boilerplate",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#5755d9",
+  "background_color": "#454d5d"
+}

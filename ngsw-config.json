@@ -1,0 +1,20 @@
+{
+  "index": "/index.html",
+  "appData": {
+    "test": true
+  },
+  "assetGroups": [{
+    "name": "angular-parcel",
+    "resources": {
+      "files": [
+        "/assets/**/*",
+        "!/ngsw-worker.js"
+      ],
+      "versionedFiles": [
+        "/**/*.html",
+        "/**/*.js",
+        "/**/*.css"
+      ]
+    }
+  }]
+}
