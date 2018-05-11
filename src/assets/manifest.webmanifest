@@ -1,6 +1,6 @@
 {
   "short_name": "angular-webpack",
-  "name": "angular-parcel",
+  "name": "angular-webpack",
   "description": "Angular webpack boilerplate",
   "start_url": "./",
   "display": "standalone",
