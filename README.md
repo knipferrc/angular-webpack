@@ -1,3 +1,3 @@
-# angular-parcel
+# angular-webpack
 
-Angular parcel boilerplate
+- Angular webpack 4 setup
