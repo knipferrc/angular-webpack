@@ -27,6 +27,10 @@ module.exports = {
         loader: '@ngtools/webpack'
       },
       { test: /[\/\\]@angular[\/\\].+\.js$/, parser: { system: true } },
+      {
+        test: /\.scss$/,
+        use: ['raw-loader', 'sass-loader']
+      },
       { test: /\.css$/, loader: 'raw-loader' },
       { test: /\.html$/, loader: 'raw-loader' }
     ]
